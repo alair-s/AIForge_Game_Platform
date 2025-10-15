@@ -75,3 +75,21 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 第三方扩展
+
+### 添加unocss
+```bash
+pnpm add -D unocss @unocss/nuxt
+```
+然后在nuxt.config.ts里面加
+```js
+export default defineNuxtConfig({
+modules: [
+'@unocss/nuxt',
+],
+})
+```
+### 添加nuxt/icon
+```angular2html
+npx nuxi module add icon
+```
