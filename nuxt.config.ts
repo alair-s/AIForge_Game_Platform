@@ -2,9 +2,15 @@
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
     devtools: { enabled: true},
-    modules:['@unocss/nuxt', '@nuxt/icon'],
+    modules:['@unocss/nuxt', '@nuxt/icon','nuxt-lottie'],
     icon: {
         localApiEndpoint: '/nuxt-icon',
+    },
+    lottie: {
+        componentName: 'Lottie', // Optional: Customize the component name
+        lottieFolder: '/assets/lottie', // Optional: Customize the Lottie folder path
+        autoFolderCreation: true, // Optional: Auto create lottie folder (default: true)
+        enableLogs: true // Optional: Enable console logs from module (default: true)
     },
     app:{
         head:{
@@ -24,7 +30,7 @@ export default defineNuxtConfig({
         port: 3000,
         host: '0.0.0.0',
     },
-    css:["~/assets/index.css"],//css入口文件，因为没有main.ts
+    css:["~/assets/index.css","~/assets/animations.css"],//css入口文件，因为没有main.ts
     nitro:{
         //代理，用于前后端分离
         // devProxy: {
