@@ -26,20 +26,20 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    title: '通用智能文字识别引擎',
-    description: '支持全球50+主流语言的文本识别、表格识别及办公文档OCR识别产品',
+    title: '通用前端脚手架',
+    description: '支持Vue/React/Angular多框架，集成ESLint/Prettier规范，一键生成企业级项目模板',
     icon: 'streamline-freehand-color:app-window-link'
   },
   {
     id: 2,
-    title: '场景智能文字识别引擎',
-    description: '200+国内外卡证、票据、行业单据、定制场景等高精度识别产品',
+    title: '场景化组件库',
+    description: '200+覆盖电商/后台/移动端等场景的UI组件，支持按需引入、主题定制与多端适配',
     icon: 'streamline-freehand-color:bookmarks-document'
   },
   {
     id: 3,
-    title: '财报机器人',
-    description: '整合多样式报表OCR识别、报表电子化储存与数据分析的一站式企业财报处理平台',
+    title: '前端性能分析平台',
+    description: '整合首屏加载监控、资源体积分析、错误上报与用户行为追踪的一站式性能优化工具',
     icon: 'streamline-freehand-color:app-window-search-text'
   }
 ]

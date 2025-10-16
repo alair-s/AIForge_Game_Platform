@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <a href="http://intsig.com" class="logo"></a>
+    <a href="http://.com" class="logo"></a>
 
     <ul class="nav-menu">
       <li
@@ -23,7 +23,7 @@
             @mouseleave="handleMouseLeave"
 
         >
-          <!-- 智能文字识别菜单 -->
+          <!-- 前端框架菜单 -->
           <template v-if="item.id === 'aiNav'">
             <a
                 v-for="subItem in item.subMenu"
@@ -38,7 +38,7 @@
             </a>
           </template>
 
-          <!-- 商业大数据菜单 -->
+          <!-- 前端工具链菜单 -->
           <template v-if="item.id === 'bigdataNav'">
             <a
                 v-for="subItem in item.subMenu"
@@ -51,7 +51,7 @@
             </a>
           </template>
 
-          <!-- 解决方案菜单 -->
+          <!-- 行业解决方案菜单 -->
           <template v-if="item.id === 'solutionNav'">
             <div v-for="section in item.subMenu" :key="section.title" :class="['solution-section', section.class]">
               <div :class="['solution-section-title', section.titleClass]">
@@ -80,7 +80,7 @@
             </div>
           </template>
 
-          <!-- 明星产品菜单 -->
+          <!-- 核心产品菜单 -->
           <template v-if="item.id === 'starNav'">
             <div v-for="production in item.subMenu" :key="production.title" class="production-section">
               <div class="production-section-title">{{ production.title }}</div>
@@ -99,7 +99,7 @@
             </div>
           </template>
 
-          <!-- 关于合合信息菜单 -->
+          <!-- 关于前端公司菜单 -->
           <template v-if="item.id === 'heheNav'">
             <a
                 v-for="subItem in item.subMenu"
@@ -142,110 +142,110 @@ const navItems = ref([
   },
   {
     id: 'aiNav',
-    title: '智能文字识别',
+    title: '前端框架',
     subMenuClass: 'submenu-320',
     subMenu: [
       {
         class: 'item-w33',
-        href: 'https://www.intsig.com/public/textin/product/textin-scene.shtml',
-        title: '场景智能文字识别引擎',
-        desc: '国内外卡证、票据、行业单据等场景识别产品'
+        href: '',
+        title: 'Vue 生态解决方案',
+        desc: 'Vue 3 项目搭建、组件库开发、状态管理完整落地方案'
       },
       {
         class: 'item-w33',
-        href: 'https://www.intsig.com/public/textin/product/textin-contract.shtml',
-        title: '合同机器人',
-        desc: '智能合同审阅平台'
+        href: '',
+        title: 'React 技术体系',
+        desc: 'React 18+  Hooks 最佳实践、SSR 服务端渲染方案'
       },
       {
         class: 'item-w33',
-        href: 'https://www.intsig.com/public/textin/product/textin-text.shtml',
-        title: '通用智能文字识别引擎',
-        desc: '文本识别、表格识别及办公文档OCR识别产品'
+        href: '',
+        title: 'Angular 企业级应用',
+        desc: 'Angular 17+ 模块化开发、国际化与权限管理方案'
       },
       {
         class: 'item-w33',
-        href: 'https://www.intsig.com/public/textin/product/textin-image.shtml',
-        title: '智能图像处理引擎',
-        desc: '扫描件优化、切边增强、曲面矫正等智能图像处理'
+        href: '',
+        title: '跨端框架实践',
+        desc: 'Taro/Uniapp 多端适配、Electron 桌面应用开发'
       },
       {
         class: 'item-w33',
-        href: 'https://b.intsig.com/ocr/textin_extract?from=PPintsig-daohang-pc-wdcq',
+        href: '',
         target: '_blank',
-        title: '智能文档抽取',
-        desc: '在任意文档中获取你想要的内容'
+        title: '微前端架构',
+        desc: '基于 qiankun/garfish 的微前端拆分与集成方案'
       },
       {
         class: 'item-w33',
-        href: 'https://b.intsig.com/ocr/textin_parse?from=PPintsig-daohang-pc-wdjx',
+        href: '',
         target: '_blank',
-        title: '通用文档解析',
-        desc: '加速大模型的训练、开发、应用'
+        title: '低代码平台',
+        desc: '可视化拖拽组件、自定义表单与流程设计器开发'
       }
     ]
   },
   {
     id: 'bigdataNav',
-    title: '商业大数据',
+    title: '前端工具链',
     subMenuClass: 'submenu-280',
     subMenu: [
       {
         class: 'item-w50',
-        href: 'https://www.intsig.com/public/solution-new/database.shtml',
-        title: '企业数据库',
-        desc: '采用先进的数据库设计技术，优质数据为企业机构用户在企业尽调、信用审核，风险监控，企业拓客，供应链管理，数据大屏等方面供应全面的数据支持'
+        href: '',
+        title: '工程化构建工具',
+        desc: 'Webpack/Vite 性能优化、按需加载配置、多环境打包策略，提升项目构建效率'
       },
       {
         class: 'item-w50',
-        href: 'https://www.intsig.com/public/solution-new/api.shtml',
-        title: '企业数据API',
-        desc: '覆盖多维度企业数据，以安全、稳定、灵活的调用体验服务诸多行业，如银行、证券、保险、地产、制造业、互联网、信息科技、政府机关等'
+        href: '',
+        title: '代码质量保障',
+        desc: 'ESLint/Prettier 规范配置、Git Hooks 提交校验、Jest/Cypress 自动化测试'
       },
       {
         class: 'item-w50',
-        href: 'https://www.intsig.com/public/solution-new/standardization.shtml',
-        title: '标准化数据服务应用',
-        desc: '针对各行业企业适配的通用场景，提供标准化Saas应用平台，业务场景包含：智能商业调查｜风险监控｜合规管理｜营销拓客 | 智慧招商等，模块支持自由选择，灵活搭配'
+        href: '',
+        title: 'API 管理工具',
+        desc: 'Swagger/Postman 接口文档生成、Mock 数据模拟、接口联调解决方案'
       },
       {
         class: 'item-w50',
-        href: 'https://www.intsig.com/public/solution-new/customization.shtml',
-        title: '企业定制化服务',
-        desc: '针对企业对应的行业场景，提供个性化定制应用，已为100+银行、券商、政府、集团等类型客户提供私有化解决方案，灵活支持多类定制及部署需求'
+        href: '',
+        title: '性能监控平台',
+        desc: '基于 Lighthouse/Performance API 的前端性能监控、错误上报与分析平台'
       }
     ]
   },
   {
     id: 'solutionNav',
-    title: '解决方案',
+    title: '行业解决方案',
     subMenuClass: 'submenu-280 solution-wrapper',
     subMenu: [
       {
         class: 'solution-main',
-        title: '行业数字化解决方案',
+        title: '垂直领域解决方案',
         titleClass: 'digital-title',
         contentClass: 'solution-grid',
         viewAllBtn: {
-          href: 'https://b.intsig.com/?from=PPintsig-daohang-pc-1',
+          href: 'https://b..com/?from=PP-daohang-pc-1',
           text: '查看全部',
-          icon: './上海合合信息科技股份有限公司_人工智能及大数据科技企业，致力于自主研发的智能文字识别及商业大数据_files/arrow-right-0811.png'
+          icon: ''
         },
         items: [
-          { name: '银行', href: 'https://www.intsig.com/solution/bank.shtml', class: '' },
-          { name: '证券', href: 'https://www.intsig.com/solution/securities.shtml', class: '' },
-          { name: '保险', href: 'https://www.intsig.com/solution/insurance.shtml', class: '' },
-          { name: '政府园区', href: 'https://www.intsig.com/solution/government.shtml', class: '' },
-          { name: '供应链', href: 'https://www.intsig.com/solution/supply-chains.shtml', class: '' }
+          { name: '电商前端', href: 'com/solution/bank.shtml', class: '' },
+          { name: '后台管理', href: 'com/solution/securities.shtml', class: '' },
+          { name: '移动端H5', href: 'com/solution/insurance.shtml', class: '' },
+          { name: '数据可视化', href: 'com/solution/government.shtml', class: '' },
+          { name: '智能表单', href: 'com/solution/supply-chains.shtml', class: '' }
         ]
       },
       {
         class: 'solution-other',
-        title: '其他解决方案',
+        title: '增值服务方案',
         contentClass: 'solution-grid',
         items: [
-          { name: '生态合作', href: 'https://www.intsig.com/solution/env.shtml', class: '' },
-          { name: '财务数字化', href: 'https://www.intsig.com/solution/finance.shtml', class: '' }
+          { name: '技术培训', href: 'com/solution/env.shtml', class: '' },
+          { name: '项目外包', href: 'com/solution/finance.shtml', class: '' }
         ]
       }
     ]
@@ -256,41 +256,41 @@ const navItems = ref([
     subMenuClass: 'submenu-220',
     subMenu: [
       {
-        title: '个人产品',
+        title: '基础',
         items: [
           {
-            name: '名片全能王',
-            href: 'https://www.intsig.com/personal-camcard',
+            name: 'js',
+            href: 'com/personal-camcard',
             imageClass: 'production-image--cc'
           },
           {
-            name: '扫描全能王',
-            href: 'https://www.intsig.com/personal-camscanner',
+            name: 'H5',
+            href: 'com/personal-camscanner',
             imageClass: 'production-image--cs'
           },
           {
-            name: '启信宝',
-            href: 'https://www.intsig.com/enterprise/qixinbao-new.shtml',
+            name: 'css',
+            href: 'com/enterprise/qixinbao-new.shtml',
             imageClass: 'production-image--qxb'
           }
         ]
       },
       {
-        title: '企业产品',
+        title: '进阶',
         items: [
           {
-            name: '名片全能王企业版',
-            href: 'https://www.intsig.com/enterprise/camcardbusiness.shtml',
+            name: 'vue',
+            href: 'com/enterprise/camcardbusiness.shtml',
             imageClass: 'production-image--ccb'
           },
           {
-            name: '启信慧眼',
-            href: 'https://www.intsig.com/enterprise/qx-huiyan.shtml',
+            name: 'react',
+            href: 'com/enterprise/qx-huiyan.shtml',
             imageClass: 'production-image--qxhy'
           },
           {
-            name: 'TextIn',
-            href: 'https://www.textin.com/?from=HHintsig-tiyan',
+            name: 'TS',
+            href: 'https://www.textin.com/?from=HH-tiyan',
             imageClass: 'production-image--textin'
           }
         ]
@@ -299,33 +299,33 @@ const navItems = ref([
   },
   {
     id: 'heheNav',
-    title: '关于合合信息',
-    href: 'https://www.intsig.com/about',
+    title: '关于企业官网',
+    href: 'com/about',
     subMenuClass: 'submenu-140',
     subMenu: [
       {
         class: 'item-w25',
-        href: 'https://www.intsig.com/about',
+        href: 'com/about',
         title: '公司简介',
-        descList: ['公司简介、公司荣誉', '合合信息旗下多个智能产品']
+        descList: ['公司简介、公司荣誉', '企业官网旗下多个智能产品']
       },
       {
         class: 'item-w25',
-        href: 'https://www.intsig.com/recruit',
-        title: '加入合合',
-        descList: ['校园招聘、社会招聘', '合合文化']
+        href: 'com/recruit',
+        title: '加入企业',
+        descList: ['校园招聘、社会招聘', '企业文化']
       },
       {
         class: 'item-w25',
-        href: 'https://www.intsig.com/contactus',
+        href: 'com/contactus',
         title: '联系我们',
         descList: ['在线咨询、联系方式']
       },
       {
         class: 'item-w25',
-        href: 'https://www.intsig.com/public/show/show-certificate.shtml',
+        href: 'com/public/show/show-certificate.shtml',
         title: '安全中心',
-        descList: ['安全与合规', '合合安全应急响应中心']
+        descList: ['安全与合规', '企业安全应急响应中心']
       }
     ]
   }
