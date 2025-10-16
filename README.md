@@ -5,7 +5,6 @@
 # Demo
 ![img.png](img.png)
 ![img_1.png](img_1.png)
-
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
