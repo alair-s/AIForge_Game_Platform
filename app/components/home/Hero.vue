@@ -2,8 +2,8 @@
   <section class="hero-bg pt-20" style="height: 40vh;">
     <div class="container mx-auto px-6 h-full flex flex-col md:flex-row items-center justify-between">
       <div class="w-full md:w-3/5 mb-10 md:mb-0">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">智能文字识别与理解的一站式服务平台</h1>
-        <p class="text-xl md:text-2xl mb-8 opacity-90">银行 | 身份证 | 票据 | 自定义文档电子化</p>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">前端开发与解决方案的一站式服务平台</h1>
+        <p class="text-xl md:text-2xl mb-8 opacity-90">工程化 | 组件库 | 性能优化 | 定制化开发交付</p>
         <button class="bg-white text-blue-900 font-bold py-3 px-8 rounded-lg transition-transform duration-300 hover:transform hover:scale-105">
           了解更多
         </button>

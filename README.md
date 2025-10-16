@@ -1,11 +1,10 @@
-# Intsig 官网复刻
+# Nuxt4复刻 企业官网
 基于nuxt4开发企业官网。
 学习更新中...
 
 # Demo
 ![img.png](img.png)
 ![img_1.png](img_1.png)
-
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
