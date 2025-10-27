@@ -1,18 +1,4 @@
 <template>
-  <div>
-
-
-    <main>
-      <HomeHero />
-
-      <div class="container mx-auto px-6 py-16 md:py-24">
-
-        <HomeProductSection />
-      </div>
-    </main>
-
-
-
-  </div>
+<h2>开发中</h2>
 </template>
 
