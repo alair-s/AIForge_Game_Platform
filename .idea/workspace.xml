@@ -4,79 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35b418f8-2f4b-4582-b81e-5c946812fefb" name="Changes" comment="" />
+    <list default="true" id="d3934f8a-1648-4c1d-987e-a167b2349af9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/views/CreateCenter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CreateCenter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Preview3D.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Preview3D.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Vue Composition API Component" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;alair-s&quot;
-  }
-}</component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="a4d1915d-1b1c-4319-9c7d-6ae66ea8ef45" />
-  </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:alair-s/intsig.git&quot;,
-    &quot;accountId&quot;: &quot;a4d1915d-1b1c-4319-9c7d-6ae66ea8ef45&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="343oUt1DgWXxNJhf0BWzOPydlID" />
+  <component name="ProjectId" id="34EPMECgbNzvxYFuP7vpDjsMRiR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;shi&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/vue/nuxt/hehe/app/assets/lottie&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Software\\webstom\\WebStorm 2025.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\code\\front\\ai-game\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
-    ]
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\vue\nuxt\hehe\app\assets\lottie" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\vue\nuxt\hehe\app\components\help" />
-      <recent name="D:\vue\nuxt\hehe" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,20 +50,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35b418f8-2f4b-4582-b81e-5c946812fefb" name="Changes" comment="" />
-      <created>1760451635029</created>
+      <changelist id="d3934f8a-1648-4c1d-987e-a167b2349af9" name="Changes" comment="" />
+      <created>1760775707969</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1760451635029</updated>
-      <workItem from="1760451636685" duration="9624000" />
-      <workItem from="1760512428158" duration="22982000" />
-      <workItem from="1760541888196" duration="2116000" />
-      <workItem from="1760618979444" duration="3195000" />
-      <workItem from="1760701009077" duration="9485000" />
-      <workItem from="1761573535050" duration="1852000" />
-      <workItem from="1761575655735" duration="52000" />
-      <workItem from="1761575719809" duration="3638000" />
-      <workItem from="1761750032181" duration="1533000" />
+      <updated>1760775707969</updated>
+      <workItem from="1760775709807" duration="16009000" />
+      <workItem from="1760924724470" duration="8000" />
+      <workItem from="1761214206207" duration="381000" />
+      <workItem from="1761269413869" duration="18000" />
+      <workItem from="1761801752275" duration="1861000" />
     </task>
     <servers />
   </component>
@@ -111,24 +71,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="shi" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
